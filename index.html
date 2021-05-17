@@ -6,25 +6,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css"/>
     <title> Covid-!9 Tracker </title>
+
+
 </head>
     <body>
         <header>
             <div class="Logo">
                 <img src="images/covid - logo.png" alt="">
-                <p> COVID <br /> Tracker </p>
             </div>
+            <h1> Covid-Tracker </h1>
             <nav>
-                <ul>
-                    <li><a href="https://www.worldometers.info/coronavirus/"></a></li>
-                    <li><a href="https://github.com/Prerna-tech/Portfolio">To Know More </a></li>
-                </ul>
+              <ul>
+                <li><a href="https://www.worldometers.info/coronavirus/"> To know more</a></li>
+                <li><a href="https://github.com/Prerna-tech/Portfolio">About Us </a></li>
+              </ul>
             </nav>
         </header>
         <main>
             <div class="stats">
               <div class="latest-report">
                 <div class="country">
-                  <div class="name">...</div>
+                  <div class="name">Loading...</div>
                   <div class="change-country">change</div>
                   <div class="search-country hide">
                     <div class="search-box">
@@ -37,21 +39,6 @@
                     </div>
                     <div class="country-list"></div>
                   </div>
-                </div>
-                <div class="region">
-                    <div class="city name">...</div>
-                    <div class="change-city">change</div>
-                    <div class="search-city hide">
-                        <div class="search-box">
-                          <input
-                            type="text"
-                            id="search-input"
-                            placeholder="Search City..."
-                          />
-                          <img class="close" src="images/close.svg" alt="" />
-                       </div>
-                       <div class="city-list"></div>
-                    </div>
                 </div>
                 <div class="total-cases">
                   <div class="title">Total Cases</div>
@@ -74,22 +61,21 @@
               </div>
             </div>
           </main>
-
-       
-
-        <footer>
-            <div class="Footer- Conatainer">
-                <div class="copyright">
-                    <p> Created By Prerna Kulshrestha</p>
-                </div>
+          <footer>
+            <div class="footer-container">
+              <div class="copyright">
+                <p> Created by 
+                  Prerna Kulshrestha
+                </p>
+              </div>
             </div>
-        </footer>
+          </footer>
 
         <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.3/Chart.min.js"
           integrity="sha256-R4pqcOYV8lt7snxMQO/HSbVCFRPMdrhAFMH+vr9giYI="
           crossorigin="anonymous"></script>
-        <script src="resources/js/countries.js"></script>
-        <script src="resources/js/app.js"></script>
+        <script src="js/country.js"></script>
+        <script src="js/app.js"></script>
     
     </body>
 </html>
