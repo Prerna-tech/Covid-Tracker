@@ -84,7 +84,7 @@ main {
 /* -------- BG IMAGE -------- */
 .stats {
 	width: 100%;
-	background-image: linear-gradient(rgba(236, 149, 149, 0.9), rgba(0, 0, 0, 0.9)), url('images/coronavirus-background-in-futuristic-hud-style-vector.jpg');
+	background-image: linear-gradient(rgba(26, 24, 24, 0.9), rgba(192, 168, 168, 0.9)), url('images/coronavirus-background-in-futuristic-hud-style-vector.jpg');
 	background-size: cover;
 }
 /* -------- LATEST REPORT -------- */
