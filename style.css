@@ -42,7 +42,7 @@ header {
 
 	margin: 0 auto;
 
-	background-color: #f38a8a;
+	background-color: #f16d6d;
 }
 /* -------- LOGO -------- */
 .logo {
@@ -51,11 +51,11 @@ header {
 	padding-left: 20px;
 }
 .logo img {
-	width: 60px;
+	width: 50px;
 }
 .logo p {
 	font-weight: bold;
-	color: #7bd85f;
+	color: #8700cf;
 }
 /* -------- NAV -------- */
 
@@ -71,7 +71,7 @@ nav ul li:last-child {
 }
 nav ul li a {
 	text-decoration: none;
-	color: #7bd85f;
+	color: #54da87;
 	padding: 10px;
 }
 /* ---------------------------------------------- */
@@ -84,7 +84,7 @@ main {
 /* -------- BG IMAGE -------- */
 .stats {
 	width: 100%;
-	background-image: linear-gradient(rgba(54, 46, 46, 0.9), rgba(0, 0, 0, 0.9)), url('images/coronavirus-background-in-futuristic-hud-style-vector.jpg');
+	background-image: linear-gradient(rgba(236, 149, 149, 0.9), rgba(0, 0, 0, 0.9)), url('images/coronavirus-background-in-futuristic-hud-style-vector.jpg');
 	background-size: cover;
 }
 /* -------- LATEST REPORT -------- */
@@ -109,16 +109,12 @@ main {
 
 .name {
 	font-size: 2.2em;
-	color: #e94949;
+	color: #f1346d;
 	font-weight: bold;
 }
 
 .change-country {
 	cursor: pointer;
-}
-
-.city-name{
-	cursor:pointer;
 }
 
 .title {
@@ -131,12 +127,12 @@ main {
 .recovered .value {
 	font-size: 2em;
 	font-weight: bold;
-	color: #2185e2;
+	color: #6af17c;
 }
 .deaths .value {
 	font-size: 2em;
 	font-weight: bold;
-	color: #d85047;
+	color: #f44336;
 }
 .new-value {
 	font-size: 1.3em;
@@ -155,12 +151,6 @@ main {
 	position: relative;
 	top: 10px;
 }
-
-.search-city{
-	position: relative;
-	top: 10px;
-}
-
 .search-box {
 	position: absolute;
 
@@ -171,7 +161,7 @@ main {
 	width: 400px;
 	height: 30px;
 
-	background-color: #111;
+	background-color: rgb(41, 39, 39);
 
 	z-index: 1;
 }
@@ -194,7 +184,7 @@ main {
 	cursor: pointer;
 }
 
-.country-list, .city-list {
+.country-list {
 	display: flex;
 
 	position: absolute;
@@ -209,24 +199,21 @@ main {
 	overflow-y: scroll;
 }
 
-.country-list ul,.city-list ul {
+.country-list ul {
 	width: 100%;
 }
 
-.country-list ul li ,.city-list ul li {
+.country-list ul li {
 	list-style: none;
 	cursor: pointer;
 	padding: 10px;
-	color: #fff;
+	color: rgb(228, 245, 244);
 }
-.country-list  ul li:hover , .city-list ul li :hover {
+.country-list ul li:hover {
 	border-left: 1px solid #fff;
 }
 /* SCROLL BAR */
 .country-list::-webkit-scrollbar {
-	width: 10px;
-}
-.city-list::-webkit-scrollbar {
 	width: 10px;
 }
 
@@ -234,25 +221,15 @@ main {
 .country-list::-webkit-scrollbar-track {
 	background: #111;
 }
-.city-list::-webkit-scrollbar-track{
-	background-color: #111;
-}
 
 /* Handle */
 .country-list::-webkit-scrollbar-thumb {
 	background: #f1f1f1;
 }
-.city-list::-webkit-scrollbar-thumb{
-	background: #f1f1f1;
-}
 
 /* Handle on hover */
 .country-list::-webkit-scrollbar-thumb:hover {
-	background: #fff;
-}
-
-.city-list::-webkit-scrollbar-thumb:hover{
-	background: #fff;
+	background: rgb(228, 218, 131);
 }
 /* ---------------------------------------------- */
 /*                    FOOTER                      */
@@ -262,7 +239,7 @@ footer {
 	height: 60px;
 
 	margin: 0 auto;
-	background-color: #3d7fe2;
+	background-color: #b443ff;
 }
 
 .footer-container {
@@ -279,7 +256,7 @@ footer {
 }
 
 .copyright p {
-	color: #fff;
+	color: rgb(255, 255, 255);
 }
 /* ---------------------------------------------- */
 /*             SCREEN WIDTH < 600px               */
